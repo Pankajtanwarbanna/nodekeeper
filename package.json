@@ -1,7 +1,7 @@
 {
-	"name": "nodekeeper",
+	"name": "@the2ndfloorguy/nodekeeper",
 	"version": "1.0.0",
-	"description": "A lightweight alertnative to nodemon.",
+	"description": "A 30x lightweight alertnative to nodemon to monitor your Node Application",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -9,8 +9,24 @@
 	"bin": {
 		"nodekeeper": "./index.js"
 	},
-	"keywords": [],
-	"author": "Pankaj Tanwar",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Pankajtanwarbanna/nodekeeper.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Pankajtanwarbanna/nodekeeper/issues"
+	},
+	"homepage": "https://github.com/Pankajtanwarbanna/nodekeeper#readme",		
+	"keywords": [
+		"nodemon alternative",
+		"restart",
+		"node",
+		"nodekeeper"
+	],	
+	"author": {
+		"name": "Pankaj Tanwar",
+		"url": "https://pankajtanwar.in/"
+	},
 	"license": "ISC",
 	"dependencies": {
 		"chokidar": "^3.5.1"
